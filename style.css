@@ -9,9 +9,28 @@
     grid-template-rows: 1fr 4fr;
     min-height: 100vh;
 }
+
+ul li {
+    list-style-type: none;
+}
+
 .sidebar {
     background: lightgreen;
     grid-row: 1 / 3;
+}
+
+.sidebar h1 {
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.sidebar .navigational-sidebar-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .header {
