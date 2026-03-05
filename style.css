@@ -14,11 +14,13 @@ ul li {
     list-style-type: none;
 }
 
+/* Sidebar */
 .sidebar {
     background: lightgreen;
     grid-row: 1 / 3;
     display: grid;
-    grid-template-rows: 100px 2fr 1fr;
+    /* Need to adjust the two buttons sections to line up better */
+    grid-template-rows: 100px 1fr 1fr;
 }
 
 .sidebar h1 {
@@ -43,11 +45,13 @@ ul li {
     margin: 0 15px 0 20px;
 }
 
+/* Header */
 .header {
     background: lightblue;
     grid-column: 2 / 3;
 }
 
+/* Main content */
 .main-content {
     background: lightpink;
     grid-column: 2 / 3;
