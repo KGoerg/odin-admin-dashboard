@@ -19,8 +19,7 @@ ul li {
     background: lightgreen;
     grid-row: 1 / 3;
     display: grid;
-    /* Need to adjust the two buttons sections to line up better */
-    grid-template-rows: 100px 1fr 1fr;
+    grid-template-rows: 100px repeat(4, 1fr);
 }
 
 .sidebar h1 {
