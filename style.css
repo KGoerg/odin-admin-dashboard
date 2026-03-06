@@ -33,8 +33,12 @@ ul li {
     grid-template-columns: .2fr 1fr;
     align-items: center;
     gap: 10px;
-    margin: 0 10px 10px 10px;
+    margin-left: 10px;
     font-size: 2rem;
+}
+
+.icon-image {
+    margin-top: 5px;
 }
 
 .sidebar li {
@@ -45,8 +49,8 @@ ul li {
     grid-template-columns: .2fr 1fr;
 }
 
-.navigational-sidebar-buttons img,
-.branding-sidebar-buttons img {
+.navigational-symbol,
+.branding-symbol {
     height: 20px;
     width: 20px;
     margin: 2px 15px 0 20px;
