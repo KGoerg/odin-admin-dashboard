@@ -59,10 +59,27 @@ ul li {
     grid-row: 8;
 }
 
+.searchbar {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+input[type="search"] {
+    width: 500px;
+    height: 25px;
+    background: rgb(235, 230, 230);
+    border: 0px;
+    border-radius: 15px;
+}
+
 /* Header */
 .header {
     background: lightblue;
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 /* Main content */
