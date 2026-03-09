@@ -99,6 +99,26 @@ input[type="search"] {
     gap: 30px;
 }
 
+.welcome-user {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+}
+
+.welcome-user .profile-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    justify-content: end;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.welcome-user p {
+    font-size: 1rem;
+    font-weight: bold;
+}
 /* Main content */
 .main-content {
     background: lightpink;
