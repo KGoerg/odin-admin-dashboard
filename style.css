@@ -80,7 +80,7 @@ input[type="search"] {
     height: 30px;
     background: rgb(235, 230, 230);
     border: 0px;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 8px;
     font-size: 1rem;
     flex-basis: 900px;
@@ -124,6 +124,22 @@ input[type="search"] {
 .welcome-user h2 {
     font-size: 1.7rem;
 }
+
+.header-buttons button {
+    border-radius: 20px;
+    border: none;
+    height: 45px;
+    width: 120px;
+    font-size: 1rem;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
 /* Main content */
 .main-content {
     background: lightpink;
