@@ -97,6 +97,7 @@ input[type="search"] {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    font-size: 1.2rem;
 }
 
 .welcome-user {
@@ -118,6 +119,10 @@ input[type="search"] {
 .welcome-user p {
     font-size: 1rem;
     font-weight: bold;
+}
+
+.welcome-user h2 {
+    font-size: 1.7rem;
 }
 /* Main content */
 .main-content {
