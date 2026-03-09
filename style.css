@@ -62,7 +62,7 @@ ul li {
 
 /* Header */
 .header {
-    background: lightblue;
+    background: rgb(229, 235, 226);
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -78,7 +78,7 @@ ul li {
 
 input[type="search"] {
     height: 30px;
-    background: rgb(235, 230, 230);
+    background: #FAFAFA;
     border: 0px;
     border-radius: 20px;
     padding: 8px;
@@ -131,6 +131,9 @@ input[type="search"] {
     height: 45px;
     width: 120px;
     font-size: 1rem;
+    background: rgb(152, 194, 135);
+    color: #FAFAFA;
+    font-weight: bold;
 }
 
 .header-buttons {
