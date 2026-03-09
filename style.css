@@ -73,6 +73,7 @@ input[type="search"] {
     background: rgb(235, 230, 230);
     border: 0px;
     border-radius: 15px;
+    padding: 8px;
 }
 
 /* Header */
