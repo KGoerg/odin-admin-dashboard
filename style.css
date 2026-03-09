@@ -138,6 +138,8 @@ input[type="search"] {
     justify-content: center;
     gap: 30px;
     align-items: center;
+    margin-right: 80px;
+    margin-left: 30px;
 }
 
 /* Main content */
