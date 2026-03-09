@@ -34,7 +34,7 @@ ul li {
     align-items: center;
     gap: 10px;
     margin-left: 10px;
-    font-size: 2rem;
+    font-size: rem;
 }
 
 .sidebar-logo {
@@ -44,18 +44,19 @@ ul li {
 .sidebar li {
     font-size: 1.3rem;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: .2fr 1fr;
 }
 
 .icon {
-    margin: 2px 15px 0 20px;
-    height: 20px;
-    width: 20px;
+    margin: 1px 15px 0 20px;
+    height: 24px;
+    width: 24px;
 }
 
 .branding-sidebar-buttons {
+    margin-top: 80px;
     grid-row: 8;
 }
 
@@ -67,8 +68,8 @@ ul li {
 }
 
 input[type="search"] {
-    width: 500px;
-    height: 25px;
+    width: 700px;
+    height: 30px;
     background: rgb(235, 230, 230);
     border: 0px;
     border-radius: 15px;
