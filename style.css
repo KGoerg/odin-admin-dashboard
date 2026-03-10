@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: "Lexend Deca", Arial, Helvetica, sans-serif;
+}
+
 /* Changes icon colors to white */
 .filter-white {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(48deg) brightness(102%) contrast(102%);
@@ -34,7 +38,7 @@ ul li {
     align-items: center;
     gap: 10px;
     margin-left: 10px;
-    font-size: rem;
+    font-size: 2rem;
 }
 
 .sidebar-logo {
