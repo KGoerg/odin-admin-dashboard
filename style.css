@@ -131,9 +131,14 @@ input[type="search"] {
     height: 45px;
     width: 120px;
     font-size: 1rem;
-    background: rgb(152, 194, 135);
+    background: rgb(110, 141, 98);
     color: #FAFAFA;
     font-weight: bold;
+    box-shadow: 4px 4px 4px rgb(77, 99, 68);
+}
+
+.header-buttons button:active {
+    background: rgb(152, 194, 135);
 }
 
 .header-buttons {
