@@ -141,8 +141,11 @@ input[type="search"] {
     box-shadow: 4px 4px 4px rgb(77, 99, 68);
 }
 
+.header-buttons button:hover {
+    background: rgb(88, 114, 78);
+}
 .header-buttons button:active {
-    background: rgb(152, 194, 135);
+    background: rgb(58, 75, 52);
 }
 
 .header-buttons {
