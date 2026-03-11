@@ -15,7 +15,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 300px 3fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 200px 4fr;
     min-height: 100vh;
 }
 
@@ -162,7 +162,7 @@ input[type="search"] {
     background: lightpink;
     grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 .trending {
@@ -171,6 +171,13 @@ input[type="search"] {
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(400px), 1fr);
+    gap: 30px;
+    margin: 10px 50px 30px 30px;
+}
+
+.card {
+    background: #FAFAFA;
+    padding: 50px;
 }
