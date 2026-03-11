@@ -7,6 +7,10 @@ body {
     font-family: "Lexend Deca", Arial, Helvetica, sans-serif;
 }
 
+p {
+    line-height: 1.5;
+}
+
 /* Changes icon colors to white */
 .filter-white {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(48deg) brightness(102%) contrast(102%);
@@ -168,6 +172,7 @@ input[type="search"] {
 .trending {
     grid-column: 2 / 3;
 }
+/* Need to add icons to the cards. I want to try importing the SVGs not as images (need to change the way the sidebar and header icons work, too) then rework all icons */
 
 .card-container {
     display: grid;
@@ -180,4 +185,5 @@ input[type="search"] {
 .card {
     background: #FAFAFA;
     padding: 50px;
+    border-radius: 20px;
 }
