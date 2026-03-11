@@ -165,6 +165,12 @@ input[type="search"] {
     grid-template-columns: 3fr 1fr;
 }
 
-.trending{
+.trending {
     grid-column: 2 / 3;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
