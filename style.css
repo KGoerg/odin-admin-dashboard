@@ -161,4 +161,10 @@ input[type="search"] {
 .main-content {
     background: lightpink;
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.trending{
+    grid-column: 2 / 3;
 }
