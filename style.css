@@ -19,7 +19,7 @@ p {
 
 .container {
     display: grid;
-    grid-template-columns: 300px 3fr;
+    grid-template-columns: 350px 3fr;
     grid-template-rows: 200px 4fr;
     min-height: 100vh;
 }
@@ -30,7 +30,7 @@ ul li {
 
 /* Sidebar */
 .sidebar {
-    background-image: linear-gradient(to bottom, rgb(152, 194, 135), rgb(100, 177, 70), rgb(43, 90, 23));
+    background-image: linear-gradient(to bottom, rgb(182, 199, 175), rgb(88, 114, 78), rgb(58, 75, 52));
     grid-row: 1 / 3;
     display: grid;
     grid-template-rows: 100px repeat(15, 40px);
@@ -71,13 +71,14 @@ ul li {
 
 /* Header */
 .header {
-    background: rgb(229, 235, 226);
+    background: #FAFAFA;
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 5px;
+    box-shadow: 0 6px 10px gray;
 }
-
 
 .search-bar {
     display: flex;
@@ -87,7 +88,7 @@ ul li {
 
 input[type="search"] {
     height: 30px;
-    background: #FAFAFA;
+    background: rgb(229, 235, 226);
     border: 0px;
     border-radius: 20px;
     padding: 8px;
@@ -164,7 +165,7 @@ input[type="search"] {
 
 /* Main content */
 .main-content {
-    background: lightpink;
+    background: rgb(229, 235, 226);
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -191,5 +192,7 @@ input[type="search"] {
     background: #FAFAFA;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: inset 10px 0 rgb(88, 114, 78);
+    box-shadow: 
+    inset 10px 0 rgb(88, 114, 78),
+    3px 5px 10px rgb(167, 167, 167);
 }
