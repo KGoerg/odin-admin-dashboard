@@ -168,17 +168,20 @@ input[type="search"] {
     background: rgb(229, 235, 226);
     grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 .trending {
     grid-column: 2 / 3;
 }
-/* Need to add icons to the cards. I want to try importing the SVGs not as images (need to change the way the sidebar and header icons work, too) then rework all icons */
-
 
 .your-projects {
     margin: 20px 0 0 20px;
+}
+
+.your-projects h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
 }
 .card-container {
     display: grid;
@@ -195,4 +198,16 @@ input[type="search"] {
     box-shadow: 
     inset 10px 0 rgb(88, 114, 78),
     3px 5px 10px rgb(167, 167, 167);
+    display: grid;
+    grid-template-rows: 1fr 50px;
+}
+
+.card .icon {
+    margin: 0;
+}
+.card-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
 }
