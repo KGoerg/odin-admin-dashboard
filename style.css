@@ -169,6 +169,7 @@ input[type="search"] {
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat (6, 1fr);
 }
 
 .trending {
@@ -177,6 +178,7 @@ input[type="search"] {
 
 .your-projects {
     margin: 20px 0 0 20px;
+    grid-row: 1 / 4;
 }
 
 .your-projects h3 {
@@ -186,7 +188,6 @@ input[type="search"] {
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(200px), 250px);
     gap: 30px;
     margin: 20px 50px 30px 0;
 }
