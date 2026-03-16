@@ -235,6 +235,8 @@ input[type="search"] {
     margin-bottom: 5px;
 }
 
+/* Trending */
+
 .trending {
     margin-right: 30px; 
 }
@@ -245,4 +247,40 @@ input[type="search"] {
     padding: 30px;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.account div {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.account p:nth-of-type(2) {
+    color: rgb(117, 117, 117);
+}
+
+#tegan {
+    background: purple;
+}
+
+#morgan {
+    background: lightblue;
+}
+
+#kendall {
+    background: orange;
+}
+
+#alex {
+    background-color: teal;
+}
+
+.account {
+    display: flex;
 }
