@@ -19,8 +19,8 @@ p {
 
 .container {
     display: grid;
-    grid-template-columns: 350px 3fr;
-    grid-template-rows: 200px 4fr;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: 200px 1fr;
     min-height: 100vh;
 }
 
