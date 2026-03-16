@@ -9,7 +9,7 @@ body {
 
 p {
     line-height: 1.5;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 /* Changes icon colors to white */
@@ -43,7 +43,7 @@ ul li {
     align-items: center;
     gap: 10px;
     margin-left: 10px;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .sidebar-logo {
@@ -51,7 +51,7 @@ ul li {
 }
 
 .sidebar li {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: bold;
     margin-bottom: 20px;
     display: grid;
@@ -107,7 +107,7 @@ input[type="search"] {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .welcome-user {
@@ -132,7 +132,7 @@ input[type="search"] {
 }
 
 .welcome-user h2 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 
 .header-buttons button {
@@ -182,12 +182,12 @@ input[type="search"] {
 }
 
 .your-projects h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 5px;
 }
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     margin: 20px 50px 30px 0;
 }
