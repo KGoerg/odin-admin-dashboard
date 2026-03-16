@@ -178,9 +178,6 @@ input[type="search"] {
 .main-content h2 {
     font-size: 1.2rem;
 }
-.trending {
-    grid-column: 2 / 3;
-}
 
 .your-projects {
     margin: 20px 0 0 20px;
@@ -246,6 +243,7 @@ input[type="search"] {
 
 .trending {
     margin-right: 30px; 
+    grid-column: 2 / 3;
 }
 
 .trending-accounts {
@@ -272,6 +270,10 @@ input[type="search"] {
 
 .account p:nth-of-type(2) {
     color: rgb(117, 117, 117);
+}
+
+.account p:nth-of-type(1) {
+    font-weight: bold;
 }
 
 #tegan {
