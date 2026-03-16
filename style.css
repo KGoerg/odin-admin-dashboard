@@ -112,10 +112,10 @@ input[type="search"] {
 }
 
 .welcome-user {
-    display: grid;
+    display: flex;
     align-items: center;
     grid-template-columns: 150px 1fr;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .welcome-user .profile-pic {
