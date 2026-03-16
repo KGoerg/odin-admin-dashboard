@@ -259,6 +259,8 @@ input[type="search"] {
     flex-shrink: 0;
     margin-right: 20px;
     margin-bottom: 20px;
+    color: #FAFAFA;
+    font-weight: bold;
 }
 
 .account p:nth-of-type(2) {
